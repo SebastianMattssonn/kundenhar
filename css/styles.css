@@ -49,6 +49,7 @@ nav {
     text-align: center;
     gap: 2rem;
     margin:0 auto;
+    text-decoration: none;
 }
 
 .home{
