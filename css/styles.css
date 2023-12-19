@@ -16,7 +16,11 @@ body {
     grid-template-columns: 100%;
     grid-template-rows: 10% 100vh;
     color: #fff;
-    background-color: #141414;
+    /* background-color: #141414; */
+    background-image: url(../img/wellness.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 80%;
 }
 
 img {
@@ -85,10 +89,10 @@ nav {
 
 .home .btn {
     background-color: #FFFFFF;
-    border: 1px solid #222222;
+    border: 1px solid #1abc9c;
     border-radius: 8px;
     box-sizing: border-box;
-    color: #222222;
+    color: #1abc9c;
     cursor: pointer;
     display: inline-block;
     font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
@@ -107,6 +111,8 @@ nav {
     -webkit-user-select: none;
     width: auto;
   }
+
+  .home-about
   
   .btn:focus-visible {
     box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
@@ -171,3 +177,42 @@ nav {
       transform: translate(-50%,-75% ) rotate(360deg);
     }
   }
+
+  .contact-box {
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+  }
+
+form {
+  margin-top: 35px;
+}
+.input-field {
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-right: 10px;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+}
+
+.textarea-field {
+  height: 150px;
+  padding-top: 10px;
+}
+
+.btn-field {
+  border-radius: 20px;
+  color: #fff;
+  margin-top: 18px; 
+  padding: 10px;
+  background-color: #1abc9c;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
